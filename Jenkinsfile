@@ -3,7 +3,7 @@
 import com.cloudogu.ces.cesbuildlib.*
 import com.cloudogu.ces.dogubuildlib.*
 
-node('vagrant') {
+node('slavehub') {
 
     String doguName = "jenkins"
     Git git = new Git(this, "cesmarvin")
